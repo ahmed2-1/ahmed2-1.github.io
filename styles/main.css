@@ -3,12 +3,13 @@
 :root{
     --vertical-space: 2rem;
     --horizontal-space: 3rem;
+    --bg-color: #252530;
 }
 
 body{
     font-size: 18px;
     color: white;
-    background-color: #252530;
+    background-color: var(--bg-color);
     background-image: url("../images/black-thread.png");
     font-family: 'Montserrat', sans-serif;
     line-height: 1.5;
