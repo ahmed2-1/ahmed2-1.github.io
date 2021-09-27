@@ -21,13 +21,19 @@
     </nav>
     <main>
         <h1>Resume</h1>
-        <div>Accurate as of Spring 2021</div>
+        
+        <ul id="resumeNav">
+          <li id="coursesJump"><a>Courses</a></li>
+          <li id="skillsJump"><a>Skills</a></li>
+          <li id="projectsJump"><a>Projects</a></li>
+        </ul>
+
         <h2>Education</h2>
         <h3><span class="degree">Bachelor of Science, Software Engineering, Language and Literature Minor </span><br>May 2022 3.10 GPA (3.29 Major Specific)</h3>
         <ul>              
           <li>Rose-Hulman Institute of Technology, Terre Haute, IN</li>
         </ul>
-        <h3>Relevant Courses</h3>
+        <h3 id="courses" class="scroll-target">Relevant Courses</h3>
         <ul>
           <li>Introduction to Software Development</li>
           <li>Object-Oriented SW Development</li>
@@ -44,7 +50,7 @@
           <li>SW Construction and Evolution</li>
           <li>Operating Systems</li>
         </ul>
-        <h3>Skills</h3>
+        <h3 id="skills" class="scroll-target">Skills</h3>
         <h4>Programming Languages</h4>
         <ul>
           <li>Python</li>
@@ -70,7 +76,7 @@
           <li>Attribute-driven design</li>
           <li>Refactoring</li>
         </ul>
-        <h3>Projects</h3>
+        <h3 id="projects" class="scroll-target">Projects</h3>
         <h4>Catan (Spring 2021)</h4>
         <ul>
           <li><span class="project-source">Software Construction and Evolution, Rose-Hulman</span></li>
@@ -109,7 +115,8 @@
           <li>Designed UI screens and a mockup using Figma</li>
           <li>Constructed app from scratch, including all screens, UI elements, and model objects</li>
           <li>Set up backend database on Google Firebase</li>
-        </ul>                                                                                                   
+        </ul>
+        <div>Accurate as of Spring 2021</div>
     </main>
     <footer>
         Email: ahmed1&#x40;rose-hulman.edu<br>Phone: (812) 240-4442
