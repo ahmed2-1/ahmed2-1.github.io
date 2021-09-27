@@ -6,6 +6,10 @@ function setupResumeScrolling(){
     document.querySelector("#skillsJump").onclick = (event) => {
         document.querySelector("#skills").scrollIntoView({behavior: 'smooth'});
     }
+
+    document.querySelector("#employmentJump").onclick = (event) => {
+        document.querySelector("#employment").scrollIntoView({behavior: 'smooth'});
+    }
     
     document.querySelector("#projectsJump").onclick = (event) => {
         document.querySelector("#projects").scrollIntoView({behavior: 'smooth'});
